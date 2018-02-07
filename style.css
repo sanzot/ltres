@@ -471,10 +471,6 @@ display: block;
 .first.date {
   margin-top: 0; }
 
-.arrow {
-  display: block;
-  float: right;
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 .marker {
   position: absolute;
@@ -495,3 +491,6 @@ display: block;
       width: 40px;
       height: 40px; } }
 
+.twitter{
+    font-family: 
+}
