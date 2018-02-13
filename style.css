@@ -92,7 +92,7 @@ i, em {
     page-break-inside: avoid; }
 
   img {
-    max-width: 100% !important; }
+    max-width: 100% !important;}
 
   @page {
     margin: 0.5cm; }
@@ -215,11 +215,21 @@ section {
   margin-bottom: 5vw;
   clear: both; }
 
+
 .logo{
     width: 30%;
     float: left;
     padding-bottom: 3.5vw;
 }
+
+@media (max-width: 760px) {
+    img {
+      width: 75%;} 
+}
+
+
+
+
 .menu{
  
     width: 60%;
