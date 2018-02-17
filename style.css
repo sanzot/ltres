@@ -53,7 +53,8 @@ img, video {
   display: block; }
 
 i, em {
-  font-style: italic; }
+  font-style: italic;
+}
 
 *, *:before, *:after {
   box-sizing: border-box; }
