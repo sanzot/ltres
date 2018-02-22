@@ -106,14 +106,14 @@ i, em {
 .projects li, .projects li a {
   *zoom: 1; 
 padding-bottom: 8px;
-font-size: 90%;}
-  
-/*.projects li:before, .projects li a:before, .projects li:after, .projects li a:after {
+font-size: 85%;}
+
+  .projects li:before, .projects li a:before, .projects li:after, .projects li a:after {
     content: " ";
     display: table; }
-  .projects li:after, .projects li a:after {
-    clear: both; }*/
 
+  .projects li:after, .projects li a:after {
+    clear: both; }
 
 .media-check {
   width: 0;
@@ -469,22 +469,6 @@ display: block;
   width: 100%;
   height: 100%;
   display: block; }
-
-.projects li div {
-    display: none; }
-
-.projects li a:hover + div{
-    display: block;}
-
-.projects li div{
-    font-size: 80%;
-    font-style: italic;
-    margin-left: 5%;
-    padding: 2%;
-    color: #777777;
-    background:#fef5ef;
-        
-}
 
 .title {
   display: block;
