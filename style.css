@@ -14,7 +14,7 @@ time, mark, audio, video, img {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size:large;
   font: inherit;
   vertical-align: baseline; }
 
@@ -106,7 +106,7 @@ i, em {
 .projects li, .projects li a {
   *zoom: 1; 
 padding-bottom: 8px;
-font-size: 90%;}
+font-size: large;}
   
 /*.projects li:before, .projects li a:before, .projects li:after, .projects li a:after {
     content: " ";
@@ -222,7 +222,7 @@ section {
 .logo{
     width: 30%;
     float: left;
-    padding-bottom: 3.5vw;
+    
 }
 
 @media (max-width: 760px) {
@@ -235,13 +235,18 @@ section {
 
 .menu{
  
-    width: 60%;
+    width:60%;
     text-align: left;
     float: left;
     font-size: 50%;
     
 }
 
+.menu li{
+    float: left;
+    padding-right: 8px;
+}
+medium
 .menu a{
     padding-right: 20px;
 }
@@ -268,7 +273,7 @@ section {
 .big p,
 .big h3 {
   color: orange;
-    width: 55%; }
+    width: 75%; }
   @media (min-width: 1600px) {
     .big p,
     .big h3 {
@@ -279,9 +284,11 @@ section {
       width: auto; } }
 
 .head p {
-  color: #111 !important;
-background: lightgrey;
-padding: 5px;}
+color: black!important;
+font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+padding: 5px;
+line-height:1.25em;}
 
 h3 + p,
 h3 + ul,
@@ -393,7 +400,7 @@ p + p {
 
 .big p a {
   color: #777777;
-font-size: 80%;}
+font-size: medium;}
 
 .big p a:after {
   display: none; }
@@ -446,7 +453,7 @@ h3 a {
 
 .projects li {
 color: grey;
-    font-size: 80%;
+    font-size: large;
 display: block;
   clear: both;
   width: 55%; }
@@ -477,7 +484,7 @@ display: block;
     display: block;}
 
 .projects li div{
-    font-size: 80%;
+    font-size: large;
     font-style: italic;
     margin-left: 5%;
     padding: 2%;
